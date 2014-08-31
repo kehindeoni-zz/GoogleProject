@@ -1,0 +1,120 @@
+/*body style*/
+body {
+	font-family: arial;
+	font-size: 0.8em;
+}
+
+/*link style*/
+a {
+	text-decoration: none;
+	margin: 5px;
+}
+
+
+
+/*navigation styles*/
+
+nav {
+	text-align: right;
+	margin: 18px 5px 0 0;
+}
+
+nav li a {
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+.logo {
+	margin: 130px auto 20px auto;
+	width: 280px;
+	display: block;
+}
+
+
+section {
+	text-align: center;
+}
+
+/*input*/
+
+input {
+	font-size: inherit;
+	}
+
+input[type='text']{
+	width: 500px;
+	height: 30px;
+	border: 1px solid #ddd;
+	margin-left: 430px;
+	margin-bottom: 10px;
+	background: url("../img/voicee.png") no-repeat 99% center;
+}
+
+#find input{
+	width: 120px;
+	height: 27px;
+	font-size: 12px;
+	margin: 2px;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+
+#login input{
+	background-color: rgb(70, 131, 233);
+	border: 1px solid #ddd;
+	padding:6px 9px;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+
+}
+
+/*/footer styles/*/
+
+#leftfooter {
+	margin-left: 20px;
+	float: left;
+	padding: 10px;
+
+}
+
+#rightfooter {
+	float: right;
+	margin-left: 20px;
+	padding: 10px;
+
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(230,230,230);
+	border-top: 1px solid #ddd;
+	height: 40px;
+	position: absolute;
+	top: 615px;
+	padding-top: 8px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer a {
+	color: black; 
+}
+
+
+
+
+
+
+
